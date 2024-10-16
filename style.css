@@ -114,8 +114,8 @@
 #search button{
     border-radius: 50px;
     color: white;
-    border: 1px solid #ffc800;
-    background-color: #ffc800;
+    border: 1px solid #abd43a;
+    background-color: #111143;
 }
 /* navbar */
 
@@ -493,7 +493,7 @@
     margin-left: 10px;
     border-radius: 3px;
     border: none;
-    background-color: #ffc800;
+    background-color: #111143;
     color: white;
     letter-spacing: 3px;
     font-weight: bold;
