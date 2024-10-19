@@ -487,6 +487,40 @@
     border:  1px solid black;
     padding-left: 5px;
 }
+
+
+/*Pagination */
+.pagination {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0, -50%);
+    left: 40%;
+    
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .pagination a {
+    border: 1px solid #ddd; /* Gray */
+    margin: 0 4px;
+  }
+
+
 #subscribe{
     width: 200px;
     height: 36px;
