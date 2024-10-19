@@ -39,6 +39,17 @@
     .top-navbar p{
         font-size: 13px;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
+      
 }
 @media screen and (max-width:320px){
     .top-navbar a{
@@ -50,6 +61,16 @@
     .top-navbar p{
         font-size: 10px;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:318px){
     .top-navbar a{
@@ -64,6 +85,16 @@
         font-size: 10px;
         margin-top: 20px;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 /* top navbar */
 
@@ -185,26 +216,67 @@
     .home{
         height: 90vh;
     }
+    
 }
 @media screen and (max-width:799px){
     .home{
         height: 140vh;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:550px){
     .home{
         height: 110vh;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:420px){
    .content h1{
     font-size: 45px;
    }
+   .pagination {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0, -50%);
+    left: 20%;
+    
+  }
 }
 @media screen and (max-width:320px){
    .content h1{
     font-size: 36px;
    }
+   .pagination {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0, -50%);
+    left: 20%;
+    
+  }
 }
 /* home content */
 
@@ -403,21 +475,61 @@
     .banner{
         height: 140vh;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:550px){
     .banner{
         height: 110vh;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:420px){
    .banner .content h1{
     font-size: 45px;
    }
+   .pagination {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0, -50%);
+    left: 20%;
+    
+  }
 }
 @media screen and (max-width:320px){
    .banner .content h1{
     font-size: 36px;
    }
+   .pagination {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(0, -50%);
+    left: 20%;
+    
+  }
 }
 /* banner */
 
@@ -540,6 +652,16 @@
     #subscribe{
         margin-top: 10px;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 @media screen and (max-width:250px){
     .input input{
@@ -548,6 +670,16 @@
     #subscribe{
         width: 150px;
     }
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 /* newslater */
 
@@ -732,9 +864,21 @@ html{
     .input2 input{
         width: 260px;
     }
+
     #side2{
         height: 60vh;
     }
+
+    .pagination {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translate(0, -50%);
+        left: 20%;
+        
+      }
 }
 /* login */
 
